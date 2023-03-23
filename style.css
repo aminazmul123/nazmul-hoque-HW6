@@ -1,0 +1,243 @@
+body{
+ font-family: 'Open Sans';
+ font-weight: 400;
+ background-color: #2D4739;
+}
+h1{
+ text-align: center;
+}
+
+.Typeonecard{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-around;
+ align-content: center;
+ /* background-color: antiquewhite; */
+}
+
+.onecard{
+ padding: 10px;
+ padding-bottom: 20px;
+ border: 2px solid black;
+ border-radius: .25rem;
+ width: 300px;
+ height: 300px;
+ /* display: inline-block; */
+ margin: 30px;
+ background-color: white;
+}
+
+.onecard-header{
+ font-size: 1.5rem;
+ margin-bottom: .5rem;
+ 
+}
+
+.oneimage{
+ display: block;
+ width: 100%;
+ min-width: 150px;
+}
+
+.onecard-footer{
+ margin-top: 1rem;
+}
+
+.onebtn{
+ background-color: lightskyblue;
+ border-radius: .25rem;
+ color: white;
+margin: 3px;
+ 
+}
+
+.onebtn:hover{
+ background-color: aquamarine;
+}
+
+.typetwocard {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-around;
+ align-content: center;
+ /* background-color:#2b303a; */
+}
+
+.twocard {
+ background-color: white;
+ padding: 10px;
+ padding-bottom: 20px;
+ border: 2px solid black;
+ border-radius: .25rem;
+ width: 300px;
+ height: 300px;
+ margin: 30px;
+ color: white;
+}
+
+
+.twocard-header {
+ font-size: 1.5rem;
+ margin-bottom: .5rem;
+
+}
+
+.prussian{
+ background: #0F2027;
+ /* fallback for old browsers */
+ background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+ /* Chrome 10-25, Safari 5.1-6 */
+ background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+ border-radius: .5rem;
+}
+
+.claret{
+ background-color: #840032;
+ border-radius: .5rem;
+}
+
+.gamboge {
+ background-color: #e59500;
+ border-radius: .5rem;
+}
+
+.timber {
+ background-color: #e5dada;
+ border-radius: .5rem;
+}
+
+.rich {
+ background-color: #02040f;
+ border-radius: .5rem;
+}
+
+.midnight {
+ background-color: #104547;
+ border-radius: .5rem;
+}
+
+
+.twobtn{
+ background-color: rgb(23, 27, 29);
+ border-radius: .25rem;
+ color: white;
+ margin: 3px;
+}
+
+.twocard-footer {
+ margin-top: 1rem;
+}
+
+
+.typethreecard {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-around;
+ align-content: center;
+ /* background-color: #17141d; */
+}
+
+.threecard {
+
+ padding: 10px;
+ padding-bottom: 30px;
+ border: 2px solid black;
+ border-radius: 2rem;
+ width: 300px;
+ height: 300px;
+ display: inline-block;
+ margin: 30px;
+ color: white;
+ text-align: center;
+}
+
+.threebtn{
+ background-color: #02040f;
+ color: aliceblue;
+ margin:10px ;
+ padding:6px ;
+ border-radius: .5rem;
+}
+
+.basic{
+ background: #c31432;
+ /* fallback for old browsers */
+ background: -webkit-linear-gradient(to right, #240b36, #c31432);
+ /* Chrome 10-25, Safari 5.1-6 */
+ background: linear-gradient(to right, #240b36, #c31432);
+ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.premium{
+ background: #659999;
+ /* fallback for old browsers */
+ background: -webkit-linear-gradient(to right, #f4791f, #659999);
+ /* Chrome 10-25, Safari 5.1-6 */
+ background: linear-gradient(to right, #f4791f, #659999);
+ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.family{
+ background: #636363;
+ /* fallback for old browsers */
+ background: -webkit-linear-gradient(to right, #a2ab58, #636363);
+ /* Chrome 10-25, Safari 5.1-6 */
+ background: linear-gradient(to right, #a2ab58, #636363);
+ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.typefourcard {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-around;
+ align-content: center;
+ /* background-color: #0c7c59; */
+}
+
+.fourcard {
+
+ padding: 10px;
+ padding-bottom: 30px;
+ border: 2px solid black;
+ border-radius: 1rem;
+ width: 300px;
+ height: 300px;
+ display: inline-block;
+ margin: 30px;
+ 
+ 
+}
+
+.fourbtn{
+ text-align: center;
+ padding: 6px;
+ margin-top: 1rem;
+ background-color: #58a4b0;
+}
+
+.coxsbazar{
+ background-image: url(images/ehsan-rahman-ojA0DBpe7oc-unsplash.jpg);
+ background-size: cover;
+ color: #2b303a;
+ text-align: left;
+}
+
+.sundarbhan{
+ background-image: url(images/mamun-srizon-v6A4nXxqkFo-unsplash.jpg);
+ background-size: cover;
+ background-position: right center;
+ color: #faf3dd;
+ text-align: right;
+}
+
+.sajek{
+ background-image: url(images/ebadur-rehman-kaium-GBYWXNWO81A-unsplash.jpg);
+ background-size: cover;
+ color: #F8F4E3;
+ text-align: right;
+}
